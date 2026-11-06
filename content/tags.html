@@ -3,4 +3,8 @@ title: Tags
 layout: page
 ---
 
-<p>Add the <a href="https://iamroq.dev/plugin/tagging/">tagging plugin</a> to enable this page.</p>
+{#for entry in site.tags}
+    {#for entry in site.tags}
+        <a href="posts/tag/{=entry.key}">{=entry.key}</a> ({=entry.value.size})
+    {/for} 
+{/for}
