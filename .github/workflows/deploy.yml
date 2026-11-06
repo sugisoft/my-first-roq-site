@@ -15,7 +15,7 @@ jobs:
         with:
           fetch-depth: 0 # Full history for the git dates of the sitemap <lastmod>
       - name: Generate Roq Site
-        uses: quarkiverse/quarkus-roq@v2.2
+        uses: quarkiverse/quarkus-roq@v1.1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}   # Used to automatically get the GitHub Pages url
   deploy:
