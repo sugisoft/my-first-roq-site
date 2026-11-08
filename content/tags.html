@@ -4,7 +4,5 @@ layout: page
 ---
 
 {#for entry in site.tags}
-    {#for entry in site.tags}
-        <a href="../posts/tag/{=entry.key}">{=entry.key}</a> ({=entry.value.size})
-    {/for} 
+    <a href="../posts/tag/{=entry.key}">{=entry.key}</a> ({=entry.value.size})
 {/for}
