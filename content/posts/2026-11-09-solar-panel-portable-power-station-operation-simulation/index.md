@@ -1,6 +1,6 @@
 ---
 title: Solar Panel & Portable Power Station Operation Simulation (Latest)
-date: 2026-11-09
+date: 2026-11-08
 image: image.jpg
 description: Simulation of solar panel output and portable power station recovery rates based on installation conditions in Osaka, Japan.
 tags: solarpanel
