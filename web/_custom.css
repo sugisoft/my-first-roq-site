@@ -19,6 +19,9 @@
     @apply w-[180px];
 }
 
+.post-page .article-content {
+    max-width: fit-content;
+}
 
 h2#\33 -late-october-hourly-generation-wattage-estimates-display-values + p + table {
     th, td {
