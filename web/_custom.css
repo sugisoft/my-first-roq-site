@@ -18,3 +18,14 @@
 .roq-hero-logo {
     @apply w-[180px];
 }
+
+
+h2#\33 -late-october-hourly-generation-wattage-estimates-display-values + p + table {
+    th, td {
+        text-align: center;
+    }
+
+    td:last-child {
+        text-align: left;
+    }
+}

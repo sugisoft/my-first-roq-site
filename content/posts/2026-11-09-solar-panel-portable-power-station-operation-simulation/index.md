@@ -36,7 +36,7 @@ tags: solarpanel
 
 
 | Time      | ☀️ Clear Day | ☁️ Cloudy Day | ☔ Rainy Day | Sun Movement &amp; Generation Trend                                          |
-| :---------: | :------------: | :-------------: | :-----------: | :---------------------------------------------------------------------------- |
+| --------- | ------------ | ------------- | ----------- | ---------------------------------------------------------------------------- |
 | **07:00** | \~10 W       | \~2 W         | \~0 W       | Sun begins to rise; display lights up on clear days.                         |
 | **08:00** | \~45 W       | \~8 W         | \~2 W       | Light starts coming in; output gradually increases.                          |
 | **09:00** | \~85 W       | \~15 W        | \~5 W       | Light hits the east-facing roof well; steady numbers on clear days.          |
