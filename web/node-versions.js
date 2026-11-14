@@ -7,7 +7,12 @@ const ENDPOINTS = [
   { id: "python312", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python312" },
   { id: "python313", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python313" },
   { id: "python314", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python314" },
-  { id: "python315", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python315" }
+  { id: "python315", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python315" },
+  { id: "java8", url: "https://1y9j7bqg54.execute-api.ap-northeast-1.amazonaws.com/java8" },
+  { id: "java11", url: "https://1y9j7bqg54.execute-api.ap-northeast-1.amazonaws.com/java11" },
+  { id: "java17", url: "https://1y9j7bqg54.execute-api.ap-northeast-1.amazonaws.com/java17" },
+  { id: "java21", url: "https://1y9j7bqg54.execute-api.ap-northeast-1.amazonaws.com/java21" },
+  { id: "java25", url: "https://1y9j7bqg54.execute-api.ap-northeast-1.amazonaws.com/java25" }
 ];
 
 const list = document.getElementById("runtime-versions");
