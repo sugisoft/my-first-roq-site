@@ -1,15 +1,21 @@
 const ENDPOINTS = [
   { id: "node22", url: "https://6ol38mar54.execute-api.ap-northeast-1.amazonaws.com/node22" },
   { id: "node24", url: "https://6ol38mar54.execute-api.ap-northeast-1.amazonaws.com/node24" },
-  { id: "node26", url: "https://6ol38mar54.execute-api.ap-northeast-1.amazonaws.com/node26" }
+  { id: "node26", url: "https://6ol38mar54.execute-api.ap-northeast-1.amazonaws.com/node26" },
+  { id: "python310", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python310" },
+  { id: "python311", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python311" },
+  { id: "python312", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python312" },
+  { id: "python313", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python313" },
+  { id: "python314", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python314" },
+  { id: "python315", url: "https://g5mkownqr8.execute-api.ap-northeast-1.amazonaws.com/python315" }
 ];
 
-const list = document.getElementById("node-versions");
+const list = document.getElementById("runtime-versions");
 if (list) {
-  const updated = document.getElementById("node-version-updated");
+  const updated = document.getElementById("runtime-version-updated");
 
   function setValue(id, text, failed) {
-    const row = list.querySelector('[data-runtime="' + id + '"] .node-version-value');
+    const row = list.querySelector('[data-runtime="' + id + '"] .runtime-version-value');
     if (!row) {
       return;
     }

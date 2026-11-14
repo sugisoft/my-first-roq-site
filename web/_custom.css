@@ -23,7 +23,16 @@
     max-width: fit-content;
 }
 
-.node-version-list {
+.runtime-version-group + .runtime-version-group {
+    margin-top: 2rem;
+}
+
+.page-content .runtime-version-group h2 {
+    margin-top: 0;
+    margin-bottom: 0.75rem;
+}
+
+.runtime-version-list {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -32,7 +41,7 @@
     gap: 0.75rem;
 }
 
-.node-version-list li {
+.runtime-version-list li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,24 +53,24 @@
     color: var(--color-primary);
 }
 
-.node-version-name {
+.runtime-version-name {
     font-weight: 700;
 }
 
-.node-version-value {
+.runtime-version-value {
     font-variant-numeric: tabular-nums;
     color: var(--color-secondary);
 }
 
-.node-version-value.is-error {
+.runtime-version-value.is-error {
     color: #b91c1c;
 }
 
-.dark .node-version-value.is-error {
+.dark .runtime-version-value.is-error {
     color: #fca5a5;
 }
 
-.node-version-updated {
+.runtime-version-updated {
     margin-top: 1rem;
     color: var(--color-tertiary);
     font-size: 0.9rem;
